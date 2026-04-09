@@ -1,0 +1,20 @@
+[project]
+name = "exerc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "poethepoet>=0.43.0",
+]
+
+[tool.poe.tasks]
+uvrm='uv run main.py'
+r='python'
+ex00='python ex00.py'
+ex01='python ex01.py'
+ex02='python ex02.py'
+ex03='python ex03.py'
