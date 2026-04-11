@@ -12,4 +12,5 @@ def upcase_it(text: str) -> str:
     return text.upper()
 
 
-print(upcase_it("Hello World!"))
+text: str = input("Enter a string: ")
+print(upcase_it(text))

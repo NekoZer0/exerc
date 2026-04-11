@@ -14,7 +14,9 @@ dev = [
 [tool.poe.tasks]
 uvrm='uv run main.py'
 r='python'
-m4ex00='python module4/ex00.py'
-m4ex01='python module4/ex01.py'
-m4ex02='python module4/ex02.py'
-m4ex03='python module4/ex03.py'
+m5ex00='python module5/ex00.py'
+m5ex01='python module5/ex01.py'
+m5ex02='python module5/ex02.py'
+m5ex03='python module5/ex03.py'
+m5ex04='python module5/ex04.py'
+m5ex05='python module5/ex05.py'
