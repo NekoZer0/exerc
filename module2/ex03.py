@@ -36,4 +36,5 @@ def mult():
         print(
             f"{display_number1} x {display_number2} = {resulttado}\nThis result is zero")
 
+
 mult()

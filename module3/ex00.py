@@ -18,7 +18,9 @@ def number_print():
     if number > 25:
         print("ERROR\n")
     else:
-       while number <= 25:
+        while number <= 25:
             print(f"Inside the loop, my variable is {number}")
             number += 1
+
+
 number_print()

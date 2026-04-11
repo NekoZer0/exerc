@@ -13,7 +13,8 @@ def show_multiplication_tables():
     while table_number <= 10:
         multiplier = 0  # controla os números dentro da tabela (de 0 até 10)
 
-        print(f"Table of {table_number}:", end=" ")  # imprime o título da tabela
+        # imprime o título da tabela
+        print(f"Table of {table_number}:", end=" ")
 
         while multiplier <= 10:
             result = table_number * multiplier  # calcula a multiplicação

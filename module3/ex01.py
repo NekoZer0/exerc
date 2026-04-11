@@ -17,5 +17,6 @@ def multiplication_table():
 
     for increment in range(0, 10):
         print(f"{increment} x {number} = {increment * number}")
-        
+
+
 multiplication_table()

@@ -16,4 +16,5 @@ def password_acess():
     else:
         print(f"{password}\nACCESS DENIED")
 
+
 password_acess()

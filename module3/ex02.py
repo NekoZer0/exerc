@@ -8,15 +8,16 @@
 # ./i_got_that.py
 
 def i_got_that():
-    
+
     text: str = input("What you gotta say? : ")
-    
+
     while True:
         text = input("I got that! Anything else? : ")
-          
+
         if text == "STOP":
             break
         else:
             continue
-                       
-i_got_that() 
+
+
+i_got_that()
