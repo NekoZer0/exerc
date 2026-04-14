@@ -16,7 +16,7 @@ uvrm = "uv run main.py"
 r = "python"
 
 [tool.poe.tasks.run]
-cmd = "python discovery_piscine/module$module/ex$exercise/$file"
+cmd = "./discovery_piscine/module$module/ex$exercise/$file"
 args = ["module", "exercise", "file"]
 
 #exmplo para executar o hello_world.py do módulo 0, exercício 02

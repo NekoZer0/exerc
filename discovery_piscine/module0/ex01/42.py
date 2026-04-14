@@ -1,1 +1,1 @@
-print(f'42\n')
+print('42\n')
