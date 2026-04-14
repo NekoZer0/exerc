@@ -12,11 +12,12 @@ dev = [
 ]
 
 [tool.poe.tasks]
-uvrm='uv run main.py'
-r='python'
-m5ex00='python module5/ex00.py'
-m5ex01='python module5/ex01.py'
-m5ex02='python module5/ex02.py'
-m5ex03='python module5/ex03.py'
-m5ex04='python module5/ex04.py'
-m5ex05='python module5/ex05.py'
+uvrm = "uv run main.py"
+r = "python"
+
+[tool.poe.tasks.run]
+cmd = "python discovery_piscine/module$module/ex$exercise/$file"
+args = ["module", "exercise", "file"]
+
+#exmplo para executar o hello_world.py do módulo 0, exercício 02
+#executa: poe run --module 0 --exercise 02 --file hello_world.py
