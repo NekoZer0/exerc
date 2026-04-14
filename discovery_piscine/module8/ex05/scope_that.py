@@ -10,14 +10,12 @@
 class ScopeDemo:
     # Método que adiciona 1 e RETORNA o novo valor
     def add_one(self, value):
-        #value=value+1
         return value + 1
 
 
 class App:
     def execute(self) -> None:
         number = 5
-        value_numeber= number
 
         # mostra valor inicial
         print(number)
@@ -25,11 +23,10 @@ class App:
         demo = ScopeDemo()
 
         # atualizar a variável com o valor retornado
-        #demo.add_one(number)
         number = demo.add_one(number)
 
-        print(number)
-        print (value_numeber)
-    
+        print(number)  # mostra o valor atualizado
+        print(number-1)  # mostra o valor original
+
 
 App().execute()
